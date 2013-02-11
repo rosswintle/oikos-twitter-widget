@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------------------------------------------------------------ */
+ 
+/* Custom Twitter Widget Styles                                                                                           */
+ 
+/* ------------------------------------------------------------------------------------------------------------------ */
+ 
+.widget_oikos_twitterwidget .tweet-container {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 12px;
+}
+.widget_oikos_twitterwidget p {
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+.widget_oikos_twitterwidget .tweet-user-avatar {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 8px 4px 0;
+    float: left;
+}
+.widget_oikos_twitterwidget .tweet-user-names {
+    display: block;
+    float: left;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.widget_oikos_twitterwidget .tweet-user-names a {
+    display: block;
+    margin-bottom: 2px;
+}
+.widget_oikos_twitterwidget .tweet-time {
+    float: right;
+    font-size: 0.8em;
+    margin-bottom: 2px;
+}
+.widget_oikos_twitterwidget .tweet-text {
+    clear: both;
+    margin-bottom: 12px;
+}
+.widget_oikos_twitterwidget .twitter-follow-button {
+    display: block;
+}
+.widget_oikos_twitterwidget .tweet-intents {
+    float: right;
+}
+.widget_oikos_twitterwidget .tweet-intents a {
+    display: inline-block;
+    padding-left: 3px;
+    border-left: 1px dotted #C8C8C8;
+    margin-left: 3px;
+    text-decoration: none;
+}
+.widget_oikos_twitterwidget .tweet-intents a:hover,
+.widget_oikos_twitterwidget .tweet-intents a:active {
+    text-decoration: none;
+}
+.widget_oikos_twitterwidget .tweet-intents a.intent-reply {
+    margin-left: 0;
+    border-left: none;
+    padding-left: 0;
+}
