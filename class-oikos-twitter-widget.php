@@ -245,7 +245,7 @@ class Oikos_TwitterWidget extends WP_Widget {
             </p>
 			<p>
                 <label for="<?php echo $this->get_field_id('count'); ?>">Number of tweets:</label>
-                <select id="<?php echo $this->get_field_id('count'); ?>" name="<?php echo $this->get_field_name('count'); ?>" />
+                <select id="<?php echo $this->get_field_id('count'); ?>" name="<?php echo $this->get_field_name('count'); ?>">
 					<?php
 						for ($i=1; $i<=20; $i++) {
 							printf('<option value="%d" %s>%d</option>', $i, selected($i, $count, false), $i);
