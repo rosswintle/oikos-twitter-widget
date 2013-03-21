@@ -3,7 +3,7 @@
 Plugin Name: Oikos Twitter Widget
 Plugin URI: http://oikos.org.uk
 Description: This is a simple plugin used to get tweets using the Twitter REST API v1.1. and oAuth
-Version: 0.1
+Version: 0.2
 Author: Ross Wintle
 Author Email: ross@oikos.org.uk
 License:
