@@ -133,5 +133,3 @@ class OikosTwitterWidget {
   
 } // end class
 new OikosTwitterWidget();
-
-?>
