@@ -123,7 +123,7 @@ class Oikos_TwitterWidget extends WP_Widget {
 
     public function get_tweets( $username, $count=3, $consumer_key, $consumer_secret, $user_token, $user_secret ) {
 
-        if ( ! $tweets = get_transient( 'smf_tweets' ) ) {
+        if ( ! $tweets = get_transient( 'oikos_tweets' ) ) {
             
             $tmhOAuth = new tmhOAuth(array(
                 'consumer_key'    => $consumer_key,
